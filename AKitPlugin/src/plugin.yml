@@ -1,0 +1,21 @@
+name: KitPlugin
+version: 1.0
+main: me.eagleshooter.KitPlugin.Main
+author: eagleshooter
+description: KitPlugin
+
+commands:
+    kit:
+        usage: /<command>
+        description: Opens kit selector.
+    kiteditor:
+        usage: /<command>
+        description: Opens kit editor.
+        
+permissions:
+    kit.openmenu:
+        description: Opens kit selector.
+        default: true
+    kit.openeditor:
+        description: Opens kit editor.
+        default: op
